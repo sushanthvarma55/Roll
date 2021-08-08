@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: Quantify;
+    font-family: Quantify,Poppins,helvetica;
 }
 a{
     text-decoration: none;
@@ -30,7 +31,7 @@ button{
     border: none;
     box-shadow: none;
     color: white;
-    font-family: Quantify;
+    font-family:  Quantify,Poppins,helvetica;
     font-size: 3em;
     padding: 0px 10vw ;
 }
