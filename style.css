@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Quantify;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(175, 33, 33);
+    transition: all 0.5s ease;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 33.33vh;
+}
+button{
+    background: black;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    color: white;
+    font-family: Quantify;
+    font-size: 3em;
+    padding: 0px 10vw ;
+}
+.about{
+    position: absolute;
+    bottom: 1em;
+}
+.about p{
+    font-size: 0.7em;
+}
